@@ -7,7 +7,7 @@ metadata:
   labels:
     app: postgres
 spec:
-  storageClassName: managed-nfs-storage
+  storageClassName: managed-nfs-storage-120
   accessModes:
     - ReadWriteMany
   resources:
